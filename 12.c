@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 void array_max(int array[]) {
-  int max=-99999;
+  int min=99999;
   for (int i = 0; i < 5; i++) {
-    if(array[i]>max)max=array[i];
+    if(array[i]<min)min=array[i];
   }
-  printf("%d\n",max );
+  printf("%d\n",min );
 }
 
 
